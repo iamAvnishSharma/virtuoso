@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Virtuoso</title>
+
+	<style>
+	
+	body{
+
+	background-color: black;
+
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+
+	}
+
+	.cir{
+	text-align: center;
+}
+.cir div
+{ 
+	vertical-align: middle; }
+
+.cust,.main {
+	height:50px;
+	width: 150px;
+	background-color: #0b4260;
+    border: none;
+    color: white;    
+    font-size: 15px;
+}
+		
+
+
+
+	</style>
+
+	<script>
+		
+		function openmainpage() {
+			window.open("mainpage.html")
+
+
+			// body...
+		}
+		function opencustloginpage(){
+			window.open("employeelogin.html")
+
+		}
+	</script>
+	
+</head>
+<body>
+
+	<div style="font-size: 35px; color:#d3d3d3; text-align: center; vertical-align: middle; padding: 150px 200px 0px 200px;"> VIRTUOSO </div>
+	<div style="font-size: 25px; color:#d3d3d3; text-align: center; vertical-align: middle; margin-top: 20px;"> You have successfully logged out! </div>
+	<div style="font-size: 20px; color:#d3d3d3; text-align: center; vertical-align: middle; margin-top: 60px;"> Quick Links</div>
+
+	<div class="cir">
+	<div style=" padding-top: 30px; "> <button class="main" onclick="openmainpage()">Main Page</button></div>
+	<div style=" padding-top: 30px;  "><button class="cust" onclick="opencemploginpage()">Login Page</button></div>
+	</div>
+
+
+</body>
+</html>
